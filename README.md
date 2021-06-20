@@ -1,4 +1,4 @@
-## Exercicio (Java): quantidade de numeros positivos
+## Exercicio (Java): Quantidade de numeros positivos
 
 O exercicio publicado é referente ao treinamento do Bootcamp Java Developer - Fundamentos Aritméticos em Java 
 (https://digitalinnovation.one)
