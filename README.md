@@ -1,4 +1,4 @@
-## Exercicio (Java): Exibindo Números Pares
+## Exercicio (Java): quantidade de numeros positivos
 
 O exercicio publicado é referente ao treinamento do Bootcamp Java Developer - Fundamentos Aritméticos em Java 
 (https://digitalinnovation.one)
@@ -6,25 +6,24 @@ O exercicio publicado é referente ao treinamento do Bootcamp Java Developer - F
 
 #### Descrição do Desafio:
 
-Crie um programa que leia um número e mostre os números pares até esse número, inclusive ele mesmo.
+Crie um programa que leia 6 valores. Você poderá receber valores negativos e/ou positivos como entrada, devendo desconsiderar os valores nulos. Em seguida, apresente a quantidade de valores positivos digitados
 
 #### Entrada: 
 
-Você receberá 1 valor inteiro N, onde N > 0.
+Você receberá seis valores, negativos e/ou positivos.
 
 #### Saída: 
 
-<<<<<<< HEAD
-Exiba uma mensagem dizendo quantos valores positivos foram lidos, assim como é exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final.
-=======
-Exiba todos os números pares até o valor de entrada, sendo um em cada linha. 
->>>>>>> a0670c13db91225b46dba7458bc9cb1793d6c4c8
+Exiba uma mensagem dizendo quantos valores positivos foram lidos assim como é exibido abaixo no exemplo de saída. Não esqueça da mensagem "valores positivos" ao final.
 
 Exemplos de Entrada  | Exemplos de Saída
 ------------- | -------------
-6 | 2
- | 4
- | 6
+7 | 4 valores positivos
+-5
+6
+-3.4
+4.6
+12
 
 
 #### Java　
@@ -32,7 +31,6 @@ Exemplos de Entrada  | Exemplos de Saída
 ```java
 //SOLUCAO 1
 
-<<<<<<< HEAD
   import java.io.BufferedReader;
   import java.io.InputStreamReader;
   import java.io.IOException;
@@ -63,25 +61,5 @@ Exemplos de Entrada  | Exemplos de Saída
       
     }
   }
-=======
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.io.IOException;
-import java.util.StringTokenizer;
-
-public class ExibirNumerosPares {
-    public static void main(String[] args) throws IOException {
-
-      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-      StringTokenizer st = new StringTokenizer(br.readLine());
-      
-      int numEntrada = Integer.parseInt(st.nextToken());
-     
-      for (int i = 0; i <= numEntrada; i++) {
-        if (i % 2 == 0 && i != 0 ) System.out.println (i);
-      }
-  } 
-}
->>>>>>> a0670c13db91225b46dba7458bc9cb1793d6c4c8
 ```
 
